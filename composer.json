@@ -1,0 +1,21 @@
+{
+  "name": "alessonmarques/api_client",
+  "description": "A simple code to manage the API calls.",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Alesson Marques",
+      "email": "alessonmarques@live.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AlessonMarques\\ApiClient\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "symfony/http-client": "7.0.*"
+  }
+}
